@@ -1,5 +1,20 @@
 {
   "expo": {
-    "sdkVersion": "19.0.0"
+   "name": "aspeciveConf",
+   "description": "app for aspecive company",
+   "icon": "./src/img/iconAspecive.png",
+   "privacy": "public",
+   "version": "0.2.0",
+   "slug": "conftest",
+   "sdkVersion": "19.0.0",
+   "ios": {
+     "bundleIdentifier": "com.aspecive.conftest"
+   },
+   "android": {
+     "package": "com.aspecive.conftest"
+   },
+   "loading": {
+      "backgroundImage": "./src/img/background.png"
+   }
   }
 }
