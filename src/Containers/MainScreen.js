@@ -87,8 +87,6 @@ const MainScreen = TabNavigator({
       tabBarIcon: TabBarIconElement('ios-more'),
     }
   },
-
-
 }, {
   // initialRouteName: 'Ponentes',
   tabBarPosition: 'bottom',

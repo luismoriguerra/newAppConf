@@ -1,9 +1,11 @@
 import React from 'react';
-import { } from 'react-native';
-import { Container, Text, Content, List, ListItem, Left, Body, Right, Thumbnail } from 'native-base';
+import { View } from 'react-native';
+import { Container, Text, Content, ListItem, Left, Body, Right, Thumbnail, Card, CardItem } from 'native-base';
 import Expo from 'expo';
+
 import { Header } from '../Components/custom-components';
 import { gold, blue, skyblue, gray, white } from '../colors.js';
+import styled from 'styled-components/native';
 
 const SpeakersData = [
     {
@@ -23,19 +25,39 @@ const SpeakersData = [
     },
 ]
 
+
+const ContentWrapper = styled(View)`
+    flex-direction: row;
+`;
+
+const GroupRight = styled.View`
+    margin-left: 20px;
+    width: 80%;
+`;
+
+const CardWrap = styled(Card)`
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+`;
+
+
 const Speaker = (props) => {
     return (
-        <ListItem avatar>
-            <Left>
-                <Thumbnail source={props.image} />
-            </Left>
-            <Body>
-                <Text>{props.name}</Text>
-                <Text note>{props.subtitle}</Text>
-            </Body>
-            <Right>
-            </Right>
-        </ListItem>
+        <CardWrap>
+            <CardItem>
+                <ContentWrapper>
+                    <Thumbnail source={props.image} />
+                    <GroupRight>
+                        <Text>{props.name}</Text>
+                        <Text note>{props.subtitle}</Text>
+                    </GroupRight>
+                </ContentWrapper>
+
+
+            </CardItem>
+
+        </CardWrap>
     )
 }
 

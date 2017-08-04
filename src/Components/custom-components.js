@@ -3,13 +3,15 @@ import { Text, View } from 'react-native';
 import styled from 'styled-components/native';
 import {gold, blue, skyblue, gray, white } from '../colors.js';
 
-const HeaderWrapper = styled(View)`
+const HeaderView = styled(View)`
     padding-top: 50px;
     padding-bottom: 15px;
     align-items: center;
     background-color: ${white};
+
+
 `;
-const TextWrapper = styled(Text)`
+const HeaderText = styled(Text)`
     color: ${blue};
     font-weight: bold;
     font-size: 20px;
@@ -20,11 +22,11 @@ const TextWrapper = styled(Text)`
 export class Header extends React.PureComponent {
     render() {
         return (
-            <HeaderWrapper>
-                <TextWrapper>
+            <HeaderView>
+                <HeaderText>
                     {this.props.title}
-                </TextWrapper>
-            </HeaderWrapper>
+                </HeaderText>
+            </HeaderView>
         );
     }
 }
