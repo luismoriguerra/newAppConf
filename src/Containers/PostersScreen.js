@@ -1,79 +1,60 @@
 import React from 'react';
-import {} from 'react-native';
-import {Container, Text, Content, List, ListItem, Left, Body, Right, Thumbnail } from 'native-base';
+import {View, Image, Dimensions} from 'react-native';
+import {Container, Text, Content, List, ListItem, Left, Body, Right, Thumbnail, Card, CardItem } from 'native-base';
 import Expo from 'expo';
 
 import { Header } from '../Components/custom-components';
 import { gold, blue, skyblue, gray, white } from '../colors.js';
 import styled from 'styled-components/native';
 
+const {width, height} = Dimensions.get('window');
+
 const data = [
-    
+    {
+         image: require('../img/sponsor/sponsor_fractal.png'),
+    },
+        {
+         image: require('../img/sponsor/sponsor_importek.png'),
+    }
 ];
 
+const CardWrap = styled(Card)`
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+`;
+
+const ContentWrapper = styled(View)`
+   background-color: #fff;
+   margin-top: 10px;
+   margin-left: 20px;
+   margin-right:20px;
+   align-items: center;
+`;
+
+const ImageWrap = styled(Image)`
+    width: ${width - 60}px;
+`;
+
+const Sponsor = (props) => {
+    return (
+        <ContentWrapper>
+            <ImageWrap source={props.image} resizeMode="contain"/>
+        </ContentWrapper>
+    )
+}
 
 
 export default class PostersScreen extends React.Component {
-    
-     watchDetails = () => {
-        //this.props.navigation.navigate('speaker_details')
-    }
 
   render() {
     return (
         <Container>
-                <Content>
-                    <ListItem avatar >
-                       
-                        <Body>
-                            <Text>Acerca de Aspecive</Text>
-                        </Body>
-                        
-                    </ListItem>
-                    <ListItem avatar >
-                       
-                        <Body>
-                            <Text>Sponsors</Text>
-                        </Body>
-                        
-                    </ListItem>
-                    <ListItem avatar >
-                       
-                        <Body>
-                            <Text>Acerca de la  App</Text>
-                        </Body>
-                        
-                    </ListItem>
-                    <ListItem avatar >
-                       
-                        <Body>
-                            <Text>Web Aspecive</Text>
-                        </Body>
-                        
-                    </ListItem>
-                    <ListItem avatar >
-                       
-                        <Body>
-                            <Text>Mapa</Text>
-                        </Body>
-                        
-                    </ListItem>
-                    <ListItem avatar >
-                       
-                        <Body>
-                            <Text>Preguntas frecuentes</Text>
-                        </Body>
-                        
-                    </ListItem>
-                    <ListItem avatar >
-                       
-                        <Body>
-                            <Text> otros...</Text>
-                        </Body>
-                        
-                    </ListItem>
-                </Content>
-            </Container>
+            <Header title="Sponsors" />
+                {data.map((item, index) => {
+                    return <Sponsor key={index} {...item} />
+                })}   
+        </Container>
     );
   }
 }

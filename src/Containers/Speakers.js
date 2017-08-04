@@ -11,7 +11,7 @@ const SpeakersData = [
     {
         image: require('../img/speakers/cauti.jpg'),
         name: 'Dr. Daniel Cauti De la Cruz',
-        subtitle: 'Cirujano Ortopedico - Subespecialidad en columna vertebral'
+        subtitle: 'Cirujano Ortopedico'
     },
     {
         image: require('../img/speakers/laos.jpg'),
