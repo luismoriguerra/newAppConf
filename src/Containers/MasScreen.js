@@ -1,74 +1,61 @@
 import React from 'react';
-import {} from 'react-native';
-import {Container, Text, Content, List, ListItem, Left, Body, Right, Thumbnail } from 'native-base';
+import { View, Text, Dimensions } from 'react-native';
+import { Container, Content, List, ListItem, Left, Body, Right, Thumbnail } from 'native-base';
 import Expo from 'expo';
 import { Header } from '../Components/custom-components';
 import { gold, blue, skyblue, gray, white } from '../colors.js';
 import styled from 'styled-components/native';
-
-const data = [];
-
-export default class MasScreen extends React.Component {
+const {width, height} = Dimensions.get('window');
+const data = [
+    {
+        text: 'Acerca de Aspecive'
+    },
+    {
+        text: 'Acerca de esta App'
+    },
     
-     watchDetails = () => {
+    {
+        text: 'Aspecive Web'
+    }
+
+];
+
+const RowContainer = styled(View)`
+   
+    padding: 30px;
+    alignItems: center;
+    borderBottomColor: #CCC;
+    borderBottomWidth: 1px;
+    
+`;
+
+const RowText = styled(Text)`
+    font-size: 20px;
+`;
+
+
+const Row = ({text}) => {
+    return (
+        <RowContainer >
+            <RowText >{text}</RowText>
+        </RowContainer>
+    )
+}
+
+export default class MasScreen extends React.PureComponent {
+
+    watchDetails = () => {
         //this.props.navigation.navigate('speaker_details')
     }
 
-  render() {
-    return (
-        <Container>
+    render() {
+        return (
+            <Container>
+                <Header title="Mas opciones" />
                 <Content>
-                    <ListItem avatar >
-                       
-                        <Body>
-                            <Text>Abut</Text>
-                        </Body>
-                        
-                    </ListItem>
-                    <ListItem avatar >
-                       
-                        <Body>
-                            <Text>Sponsors</Text>
-                        </Body>
-                        
-                    </ListItem>
-                    <ListItem avatar >
-                       
-                        <Body>
-                            <Text>About App</Text>
-                        </Body>
-                        
-                    </ListItem>
-                    <ListItem avatar >
-                       
-                        <Body>
-                            <Text>Pagina web Aspecive</Text>
-                        </Body>
-                        
-                    </ListItem>
-                    <ListItem avatar >
-                       
-                        <Body>
-                            <Text>Mapa</Text>
-                        </Body>
-                        
-                    </ListItem>
-                    <ListItem avatar >
-                       
-                        <Body>
-                            <Text>Preguntas frecuentes</Text>
-                        </Body>
-                        
-                    </ListItem>
-                    <ListItem avatar >
-                       
-                        <Body>
-                            <Text> otros...</Text>
-                        </Body>
-                        
-                    </ListItem>
+                    {data.map((item, index) => <Row key={index} {...item} />)}
                 </Content>
             </Container>
-    );
-  }
+        );
+    }
 }
