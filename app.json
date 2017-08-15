@@ -1,20 +1,20 @@
 {
   "expo": {
    "name": "aspeciveConf",
-   "description": "app for aspecive company",
+   "description": "Aspecive Conference App",
    "icon": "./src/img/iconAspecive.png",
    "privacy": "public",
-   "version": "0.2.0",
-   "slug": "conftest",
+   "version": "1.0.0",
+   "slug": "aspeciveconf",
    "sdkVersion": "19.0.0",
    "ios": {
-     "bundleIdentifier": "com.aspecive.conftest"
+     "bundleIdentifier": "com.aspecive.conf"
    },
    "android": {
-     "package": "com.aspecive.conftest"
+     "package": "com.aspecive.conf"
    },
    "loading": {
-      "backgroundImage": "./src/img/background.png"
+      "backgroundImage": "./src/img/newBannerBig.png"
    }
   }
 }

@@ -1,7 +1,7 @@
 export const dia1 = [
         {   
             type: 'separator',
-            hour: '07:50',
+            hour: '09:00',
         },
         {   
             type: 'row',

@@ -18,6 +18,9 @@
   "jest": {
     "preset": "jest-expo"
   },
+  "quokka": {
+    "babel": true
+  },
   "dependencies": {
     "@expo/vector-icons": "^5.0.0",
     "expo": "^19.0.0",
