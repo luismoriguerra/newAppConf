@@ -9,8 +9,52 @@ import styled from 'styled-components/native';
 
 const SpeakersData = [
     {
+        image: require('../img/speakers/babor2.png'),   
+        shortname: 'Dr. Baabor',
+        name: 'Dr. Ronald Pascual Valverde.',
+        subtitle: 'Medico Cirujano'
+    },
+    {
+        image: require('../img/speakers/barros.jpg'),   
+        shortname: 'Dr. Barros',
+        name: 'Dr. Elias Barros Avidago',
+        subtitle: 'Medico Cirujano'
+    },
+    {
+        image: require('../img/speakers/basurco.jpg'),   
+        shortname: 'Dr. Basurco',
+        name: 'Dr. Basurco',
+        subtitle: 'Medico Cirujano'
+    },
+    {
+        image: require('../img/speakers/cabrejos.jpg'),
+        shortname: 'Dr. Cabrejos',
+        name: 'Dr. Ronald Pascual Valverde.',
+        subtitle: 'Medico Cirujano'
+    },
+    {
+        image: require('../img/speakers/cari.jpg'),
+        shortname: 'Dr. Cari',
+        name: 'Dr. Elar Cari Condori',
+        subtitle: 'Cirujano Ortopedico',
+        bio: ``,
+    },
+    {
+        image: require('../img/speakers/castelo.jpg'),
+        shortname: 'Dr. Castelo',
+        name: 'Dr. Ronald Pascual Valverde.',
+        subtitle: 'Medico Cirujano'
+    },
+    {
         image: require('../img/speakers/cauti.jpg'),
         shortname: 'Dr. Cauti',
+        name: 'Dr. Daniel Cauti De la Cruz',
+        subtitle: 'Cirujano Ortopedico',
+        bio: ``,
+    },
+    {
+        image: require('../img/speakers/dittmar.jpg'),
+        shortname: 'Dr. Michael Dittmar',
         name: 'Dr. Daniel Cauti De la Cruz',
         subtitle: 'Cirujano Ortopedico',
         bio: ``,
@@ -28,42 +72,35 @@ const SpeakersData = [
         subtitle: 'Medico Cirujano'
     },
     {
-        image: require('../img/speakers/babor2.png'),   
-        shortname: 'Dr. Baabor',
-        name: 'Dr. Ronald Pascual Valverde.',
-        subtitle: 'Medico Cirujano'
-    },
-    {
-        image: require('../img/speakers/cabrejos.jpg'),
-        shortname: 'Dr. Cabrejos',
-        name: 'Dr. Ronald Pascual Valverde.',
-        subtitle: 'Medico Cirujano'
+        image: require('../img/speakers/reis.jpg'),
+        shortname: 'Dr, Reis',
+        name: 'Dr. Alexander Reis Elias',
+        subtitle: 'Cirujano Ortopedico',
+        bio: ``,
     },
     {
         image: require('../img/speakers/robles.jpg'),
         shortname: 'Dr. Robles',
         name: 'Dr. Ronald Pascual Valverde.',
         subtitle: 'Medico Cirujano'
+    },
+    {
+        image: require('../img/speakers/soriano.jpg'),
+        shortname: 'Dr. Soriano',
+        name: 'Dr. Jose A. Soriano Sanchez.',
+        subtitle: 'Neurocirujano',
+        bio: `
+        * Neurocirujano certificado, Pionero de la cirugia minimamente invasiva de columna en America Latina
+        *
+        `
     },
     {
         image: require('../img/speakers/vialle.png'),
         shortname: 'Dr. Vialle',
         name: 'Dr. Ronald Pascual Valverde.',
         subtitle: 'Medico Cirujano'
-    },
-    {
-        image: require('../img/speakers/robles.jpg'),
-        shortname: 'Dr. Robles',
-        name: 'Dr. Ronald Pascual Valverde.',
-        subtitle: 'Medico Cirujano'
-    },
-    {
-        image: require('../img/speakers/castelo.jpg'),
-        shortname: 'Dr. Castelo',
-        name: 'Dr. Ronald Pascual Valverde.',
-        subtitle: 'Medico Cirujano'
     }
-]
+];
 
 
 const CircleItem = styled(View) `

@@ -33,18 +33,19 @@ const Name = styled(Text)`
     font-size: 20px;
     font-weight: bold;
     text-align: center;
-    padding-vertical: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
 `;
 
 const Position = styled(Text)`
     font-size: 16px;
     font-weight: bold;
     text-align: center;
-    padding-top: 10px;
 `;
 
 const Bio = styled(Text)`
     padding: 20px;
+    text-align: left;
 `;
 const width = 180;
 const ImageWrap = styled(Image) `
@@ -55,6 +56,15 @@ const ImageWrap = styled(Image) `
 
 // create a component
 class SpeakerDetails extends Component {
+
+    static navigationOptions = ({ navigation }) => ({
+        title: navigation.state.params.item.name,
+        headerStyle: {
+            paddingTop: 20,
+            height: 80
+        }
+    })
+
     render() {
         const { params } = this.props.navigation.state;
 
