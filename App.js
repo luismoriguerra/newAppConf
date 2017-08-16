@@ -23,7 +23,9 @@ const App = StackNavigator({
   speaker_details: {
     screen: SpeakerDetails,
   },
-});
+}
+// , {initialRouteName: 'speaker_details'}
+);
 
 export default App;
 

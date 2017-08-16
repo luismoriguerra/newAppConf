@@ -88,7 +88,7 @@ const MainScreen = TabNavigator({
     }
   },
 }, {
-  // initialRouteName: 'Mas',
+  // initialRouteName: 'Ponentes',
   tabBarPosition: 'bottom',
   tabBarOptions:   Platform.OS === 'ios' ?  IOSTabBarOptions :  ANDtabBarOptions     
 });
