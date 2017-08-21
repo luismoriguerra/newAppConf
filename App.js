@@ -4,6 +4,7 @@ import { StackNavigator } from 'react-navigation';
 import MainScreen from './src/Containers/MainScreen.js';
 import ScheduleDetails from './src/Containers/ScheduleDetails.js';
 import SpeakerDetails from './src/Containers/SpeakerDetails.js';
+import JuntaScreen from './src/Containers/JuntaScreen.js';
 
 import HeaderSection from './src/Components/Header.js'
 
@@ -23,8 +24,11 @@ const App = StackNavigator({
   speaker_details: {
     screen: SpeakerDetails,
   },
+  Junta: {
+    screen: JuntaScreen,
+  },
 }
-// , {initialRouteName: 'speaker_details'}
+// , {initialRouteName: 'Junta'}
 );
 
 export default App;

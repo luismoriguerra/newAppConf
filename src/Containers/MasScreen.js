@@ -1,26 +1,30 @@
 import React from 'react';
-import { View, Text, Dimensions } from 'react-native';
+import { View, Text, Dimensions, TouchableWithoutFeedback } from 'react-native';
 import { Container, Content, List, ListItem, Left, Body, Right, Thumbnail } from 'native-base';
 import Expo from 'expo';
 import { Header } from '../Components/custom-components';
 import { gold, blue, skyblue, gray, white } from '../colors.js';
 import styled from 'styled-components/native';
-const {width, height} = Dimensions.get('window');
+const { width, height } = Dimensions.get('window');
 const data = [
+    {
+        text: 'Junta Directiva',
+        route: 'Junta'
+    },
     {
         text: 'Acerca de Aspecive'
     },
     {
         text: 'Acerca de esta App'
     },
-    
+
     {
         text: 'Aspecive Web'
     }
 
 ];
 
-const RowContainer = styled(View)`
+const RowContainer = styled(View) `
    
     padding: 30px;
     alignItems: center;
@@ -29,23 +33,26 @@ const RowContainer = styled(View)`
     
 `;
 
-const RowText = styled(Text)`
+const RowText = styled(Text) `
     font-size: 20px;
 `;
 
 
-const Row = ({text}) => {
+const Row = ({ text, route, goTo }) => {
     return (
-        <RowContainer >
-            <RowText >{text}</RowText>
-        </RowContainer>
+        <TouchableWithoutFeedback onPress={() => goTo(route)}>
+            <RowContainer >
+                <RowText >{text}</RowText>
+            </RowContainer>
+        </TouchableWithoutFeedback>
+
     )
 }
 
 export default class MasScreen extends React.PureComponent {
 
-    watchDetails = () => {
-        //this.props.navigation.navigate('speaker_details')
+    goTo = (route) => {
+        this.props.navigation.navigate(route)
     }
 
     render() {
@@ -53,7 +60,7 @@ export default class MasScreen extends React.PureComponent {
             <Container>
                 <Header title="Mas opciones" />
                 <Content>
-                    {data.map((item, index) => <Row key={index} {...item} />)}
+                    {data.map((item, index) => <Row key={index} {...item} goTo={this.goTo} />)}
                 </Content>
             </Container>
         );
