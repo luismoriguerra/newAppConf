@@ -88,7 +88,7 @@ const MainNavigation = TabNavigator({
     }
   },
 }, {
-  initialRouteName: 'Ponentes',
+  // initialRouteName: 'Ponentes',
   tabBarPosition: 'bottom',
   tabBarOptions:   Platform.OS === 'ios' ?  IOSTabBarOptions :  ANDtabBarOptions     
 });
