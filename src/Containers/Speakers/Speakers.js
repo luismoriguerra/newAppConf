@@ -27,7 +27,7 @@ const SpeakersData = [
     {
         image: require('../../img/speakers/barros.jpg'),   
         shortname: 'Dr. Barros',
-        name: 'Dr. Elias Barros Avidago',
+        name: 'Dr. Elisio Barros Avidago',
         subtitle: 'Medico Cirujano',
         flag: 'brasil',
         bio: `

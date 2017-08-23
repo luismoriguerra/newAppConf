@@ -1,6 +1,6 @@
 //import liraries
 import React, { Component } from 'react';
-import { View, Text, StyleSheet, Image } from 'react-native';
+import { View, Text, StyleSheet, Image, ScrollView } from 'react-native';
 import styled from 'styled-components/native';
 import { gold, blue, skyblue, gray, white } from '../../colors.js';
 
@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
     },
 });
 
-const Container = styled(View)`
+const Container = styled(ScrollView)`
     flex: 1;
     background-color: #fff;
 `;
