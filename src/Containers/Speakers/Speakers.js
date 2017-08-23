@@ -11,14 +11,33 @@ const SpeakersData = [
     {
         image: require('../../img/speakers/babor2.png'),   
         shortname: 'Dr. Baabor',
-        name: 'Dr. Ronald Pascual Valverde.',
-        subtitle: 'Medico Cirujano'
+        name: 'Dr. Marcos Baabor',
+        subtitle: 'Medico Cirujano',
+        flag: 'chile',
+        bio: `
+- Médico Neurocirujano del Departamento de Neurologia y Neurocirugia del Hospital Clinico Universidad de Chile. \n 
+- Medico Neurocirujano del servicio de Neurologia y Neurocirugia del hospital DIPRECA. \n 
+- Jefe de la Unidad de Cirugia Estereotactica y funcional del Departamento Neurologia - Neurocirugia del Hospital Clinico Universidad de Chile. \n 
+- Presidente del Capitulo de Columna e la FLANC. \n 
+- Miembro activo THE WFNS. \n 
+
+        `
+
     },
     {
         image: require('../../img/speakers/barros.jpg'),   
         shortname: 'Dr. Barros',
         name: 'Dr. Elias Barros Avidago',
-        subtitle: 'Medico Cirujano'
+        subtitle: 'Medico Cirujano',
+        flag: 'brasil',
+        bio: `
+- Miembro Titular da Sociedade Brasileira de Neurocirugia (SBN) \n
+- Membro da SOciedade Brasileira de Neurocirugia Pediatrica (SBN-Ped), (Subordinada a SBN)\n
+- Socio Efetivo da Sociedade Brasileira de Coluna.\n
+- Responsavel pelo servico de Nuerocirugia Hospital PIO XII, em Sao Paulo dos Campos-SP\n
+- Responsavel pelo servico de Neurocirugia Hospital Antoninho da Rocha Marmo-SP\n
+- Responsavel pelo servico de Neurocirugia Hospital Sao Francisco, em Jacarei-SP\n
+        ` 
     },
     {
         image: require('../../img/speakers/basurco.jpg'),   
@@ -29,21 +48,36 @@ const SpeakersData = [
     {
         image: require('../../img/speakers/cabrejos.jpg'),
         shortname: 'Dr. Cabrejos',
-        name: 'Dr. Ronald Pascual Valverde.',
-        subtitle: 'Medico Cirujano'
+        name: 'Dr. Jesus Cabrejos Bejarano',
+        subtitle: 'Especialidad: Neurocirujano',
+        bio: `
+- Medico Asistente en el Servicio de Neurotrauma y Columna del Departamento de Neurocirugia del Hospital Nacional "Guillermo Almenara Irigoyen".\n
+- Medico Asistente en el Servicio de Neurocirugia Pediatrica del Hospital de Emergencias Pediatricas. \n
+`,
     },
     {
         image: require('../../img/speakers/cari.jpg'),
         shortname: 'Dr. Cari',
         name: 'Dr. Elar Cari Condori',
-        subtitle: 'Cirujano Ortopedico',
-        bio: ``,
+        subtitle: 'Especialidad: Neurocirujano',
+        bio: `
+- Jefe del Servicio de Neurotrauma y Columna del Departamento de Neurocirugia del Hospital Nacional "Guillermo Almenara Irigoyen" .\n
+- Medico Asistente en el Servicio de Neurotrauma y Columna de la Clinica Centenario Peruano Japonesa.\n
+- Profesor y Tutor de Neurologia por la Universidad Nacional Mayor de San Marcos.\n
+`,
     },
     {
         image: require('../../img/speakers/castelo.jpg'),
         shortname: 'Dr. Castelo',
-        name: 'Dr. Ronald Pascual Valverde.',
-        subtitle: 'Medico Cirujano'
+        name: 'Dr. Jean Marcel Castelo Vega.',
+        subtitle: 'Especialidad:  Neurocirujano',
+        bio: `
+- Jefe de Servicio de Neurocirugia, Hospital Antonio Lorena (Cuzco - Peru). \n
+- International Member and Fellow AANS. \n
+- International Fellow SBNC, Cirugia de Base de Craneo (Tubingen - Alemania). \n
+- International Fellow AOSpine, Cirugia de Columna (Sao Paulo - Brasil). \n
+        `
+
     },
     {
         image: require('../../img/speakers/cauti.jpg'),
@@ -63,7 +97,10 @@ const SpeakersData = [
         image: require('../../img/speakers/laos.jpg'),
         shortname: 'Dr. Laos',
         name: 'Dr. Eduardo J. Laos Plasier',
-        subtitle: 'Medico Neurocirujano'
+        subtitle: 'Especialidad: Neurocirujano',
+        bio: `
+- Medico Asistente en el Servicio de Neurotrauma y Columna del Departamento de Neurocirugia del Hospital "Guillermo Almenara Irigoyen" \n
+                `
     },
     {
         image: require('../../img/speakers/pascual.jpg'),

@@ -46,6 +46,7 @@ const Position = styled(Text)`
 const Bio = styled(Text)`
     padding: 20px;
     text-align: left;
+    
 `;
 const width = 180;
 const ImageWrap = styled(Image) `
