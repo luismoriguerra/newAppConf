@@ -39,12 +39,12 @@ const SpeakersData = [
 - Responsavel pelo servico de Neurocirugia Hospital Sao Francisco, em Jacarei-SP\n
         ` 
     },
-    {
-        image: require('../../img/speakers/basurco.jpg'),   
-        shortname: 'Dr. Basurco',
-        name: 'Dr. Basurco',
-        subtitle: 'Medico Cirujano'
-    },
+    // {
+    //     image: require('../../img/speakers/basurco.jpg'),   
+    //     shortname: 'Dr. Basurco',
+    //     name: 'Dr. Basurco',
+    //     subtitle: 'Medico Cirujano'
+    // },
     {
         image: require('../../img/speakers/cabrejos.jpg'),
         shortname: 'Dr. Cabrejos',
@@ -56,7 +56,7 @@ const SpeakersData = [
 `,
     },
     {
-        image: require('../../img/speakers/cari.jpg'),
+        image: require('../../img/speakers/dr.cari.jpg'),
         shortname: 'Dr. Cari',
         name: 'Dr. Elar Cari Condori',
         subtitle: 'Especialidad: Neurocirujano',
@@ -84,14 +84,22 @@ const SpeakersData = [
         shortname: 'Dr. Cauti',
         name: 'Dr. Daniel Cauti De la Cruz',
         subtitle: 'Cirujano Ortopedico',
-        bio: ``,
+        bio: `
+- Medico Asistente en el Servicio de Ortopedia y Traumología del Hospital Edgardo Rebagliatti Martins
+        `, '' //@todo:  falta
     },
     {
         image: require('../../img/speakers/dittmar.jpg'),
-        shortname: 'Dr. Michael Dittmar',
-        name: 'Dr. Daniel Cauti De la Cruz',
-        subtitle: 'Cirujano Ortopedico',
-        bio: ``,
+        shortname: 'Dr. Dittmar',
+        name: 'Dr. Michael Dittmar',
+        subtitle: 'Médico Exranjero',
+        bio: `
+- Egresado de la Universidad Autonoma de Guadalajara 
+- Ortopedia Hospital Magdalena de las Salinas Mexico distrito Federal
+- Columna Vertebral Universidad de Nottingham Inglaterra y Saint Vicente de Paul en Paris Francia
+- Profesor de pregrado del Técnologico de Monterrey
+- Director del programa de adiestramiento en cirugía de columna de REESPALDA.
+        `,
     },
     {
         image: require('../../img/speakers/laos.jpg'),
@@ -103,22 +111,27 @@ const SpeakersData = [
                 `
     },
     {
-        image: require('../../img/speakers/pascual.jpg'),
+        image: require('../../img/speakers/dr.pascual.jpg'),
         shortname: 'Dr. Pascual',
         name: 'Dr. Ronald Pascual Valverde.',
-        subtitle: 'Medico Cirujano'
+        subtitle: 'Especialidad: Neurocirujano',
+        bio:
+`
+- Jefe de Neurocirugía del Hospital Victor Lazarte Echegaray EsSalud - Trujillo
+- Médico Asistente en el Servicio de Neurotrauma y Columna del Departamento de Neurocirugía del Hospital Nacional "Guillermo Almenara Irigoyen"
+`
     },
     {
         image: require('../../img/speakers/reis.jpg'),
-        shortname: 'Dr, Reis',
+        shortname: 'Dr. Reis',
         name: 'Dr. Alexander Reis Elias',
         subtitle: 'Cirujano Ortopedico',
         bio: ``,
     },
     {
-        image: require('../../img/speakers/robles.jpg'),
-        shortname: 'Dr. Robles',
-        name: 'Dr. Ronald Pascual Valverde.',
+        image: require('../../img/speakers/robles.jpg'), // donors
+        shortname: 'Dr. Donors',
+        name: 'Dr. Jesus Donors Recalde.',
         subtitle: 'Medico Cirujano'
     },
     {
@@ -127,15 +140,26 @@ const SpeakersData = [
         name: 'Dr. Jose A. Soriano Sanchez.',
         subtitle: 'Neurocirujano',
         bio: `
-        * Neurocirujano certificado, Pionero de la cirugia minimamente invasiva de columna en America Latina
-        *
+- Neurocirujano certificado, Pionero de la cirugia minimamente invasiva de columna en America Latina \n
         `
     },
     {
         image: require('../../img/speakers/vialle.png'),
         shortname: 'Dr. Vialle',
-        name: 'Dr. Ronald Pascual Valverde.',
+        name: 'Dr. Luiz Vialle',
         subtitle: 'Medico Cirujano'
+    },
+    {
+        image: require('../../img/speakers/speaker-vizcarra.jpg'),
+        shortname: 'Dr. Vizcarra',
+        name: 'Dr. Miguel Angel Vizcarra Fernandez',
+        subtitle: 'Especialidad: Neurocirujano',
+        bio: `
+ - Jefe de Servicio de Columna y Nervios Perifericos del Hospital Edgardo Rebagliati M.
+ - Profesor de Neurocirugía en Medicina Humana (UPC)
+ - Gerente de Ayuda al diagnóstico y tratamiento en Hospital Rebagliatti 2004
+ - Ex-Profesor de Neurocirugía de la Universidad Peruana Cayetano Heredia
+        `
     }
 ];
 

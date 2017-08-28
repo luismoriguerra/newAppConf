@@ -20,6 +20,12 @@ const data = [
         image: require('../../img/sponsor/sponsor-aos.png'),
     },
     {
+        image: require('../../img/sponsor/neuroscience.jpeg'),
+    },
+    {
+        image: require('../../img/sponsor/synthes.jpeg'),
+    },
+    {
         image: require('../../img/sponsor/sponsor-quito.png'),
     }
 ];

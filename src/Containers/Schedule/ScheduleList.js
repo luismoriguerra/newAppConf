@@ -40,6 +40,7 @@ const ModuleText = styled(Text) `
     font-size: 20px;
     font-weight: bold;
     color: ${blue};
+    text-align: center;
 `;
 
 const Module = ({ text, hour }) => (
