@@ -14,7 +14,7 @@
      "package": "com.aspecive.conf"
    },
    "loading": {
-      "backgroundImage": "./src/img/banner.jpeg"
+      "backgroundImage": "./src/img/banner.png"
    }
   }
 }

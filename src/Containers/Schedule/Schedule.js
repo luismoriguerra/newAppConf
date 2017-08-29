@@ -10,21 +10,21 @@ const styles = {
     tabs: {
          tabBarUnderlineStyle: 
          {
-            backgroundColor: blue 
+            backgroundColor: white 
         }
     },
     tab: {
         tabStyle: {
-            backgroundColor: white,
+            backgroundColor: blue,
         },
         activeTabStyle: {
-            backgroundColor: white,
+            backgroundColor: blue,
         },
         textStyle: {
-            color: blue
+            color: white
         },
         activeTextStyle: {
-            color: blue
+            color: white
         },
     }
 
@@ -699,7 +699,7 @@ export default class Schedule extends React.PureComponent {
     render() {
         return (
             <Container>
-                <Header title="III Congreso Nacional de Cirugia Vertebral 2017" />
+                <Header title={"III Congreso Nacional de \n Cirugia Vertebral 2017"} />
                 <Tabs {...styles.tabs}>
                     <Tab heading="Jue 7" {...styles.tab}>
                         <ScheduleList nav={this.props.navigation} data={dia1} />

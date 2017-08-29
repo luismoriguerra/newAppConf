@@ -7,14 +7,12 @@ const HeaderView = styled(View)`
     padding-top: 50px;
     padding-bottom: 15px;
     align-items: center;
-    background-color: ${white};
-
-
+    background-color: ${blue};
 `;
 const HeaderText = styled(Text)`
-    color: ${blue};
+    color: ${white};
     font-weight: bold;
-    font-size: 20px;
+    font-size: 23px;
     text-align: center;
     font-family: 'Roboto'
 `;

@@ -12,44 +12,36 @@ const SpeakersData = [
         image: require('../../img/speakers/babor2.png'),   
         shortname: 'Dr. Baabor',
         name: 'Dr. Marcos Baabor',
-        subtitle: 'Medico Cirujano',
+        subtitle: 'Médico Neurocirujano',
         flag: 'chile',
         bio: `
 - Médico Neurocirujano del Departamento de Neurologia y Neurocirugia del Hospital Clinico Universidad de Chile. \n 
 - Medico Neurocirujano del servicio de Neurologia y Neurocirugia del hospital DIPRECA. \n 
 - Jefe de la Unidad de Cirugia Estereotactica y funcional del Departamento Neurologia - Neurocirugia del Hospital Clinico Universidad de Chile. \n 
 - Presidente del Capitulo de Columna e la FLANC. \n 
-- Miembro activo THE WFNS. \n 
-
-        `
-
+- Miembro activo THE WFNS. \n `
     },
     {
         image: require('../../img/speakers/barros.jpg'),   
         shortname: 'Dr. Barros',
         name: 'Dr. Elisio Barros Avidago',
-        subtitle: 'Medico Cirujano',
+        subtitle: 'Medico Neurocirugia',
         flag: 'brasil',
         bio: `
 - Miembro Titular da Sociedade Brasileira de Neurocirugia (SBN) \n
-- Membro da SOciedade Brasileira de Neurocirugia Pediatrica (SBN-Ped), (Subordinada a SBN)\n
+- Membro da Sociedade Brasileira de Neurocirugia Pediatrica (SBN-Ped), (Subordinada a SBN)\n
 - Socio Efetivo da Sociedade Brasileira de Coluna.\n
 - Responsavel pelo servico de Nuerocirugia Hospital PIO XII, em Sao Paulo dos Campos-SP\n
 - Responsavel pelo servico de Neurocirugia Hospital Antoninho da Rocha Marmo-SP\n
 - Responsavel pelo servico de Neurocirugia Hospital Sao Francisco, em Jacarei-SP\n
         ` 
     },
-    // {
-    //     image: require('../../img/speakers/basurco.jpg'),   
-    //     shortname: 'Dr. Basurco',
-    //     name: 'Dr. Basurco',
-    //     subtitle: 'Medico Cirujano'
-    // },
     {
         image: require('../../img/speakers/cabrejos.jpg'),
         shortname: 'Dr. Cabrejos',
         name: 'Dr. Jesus Cabrejos Bejarano',
         subtitle: 'Especialidad: Neurocirujano',
+        flag: 'peru',
         bio: `
 - Medico Asistente en el Servicio de Neurotrauma y Columna del Departamento de Neurocirugia del Hospital Nacional "Guillermo Almenara Irigoyen".\n
 - Medico Asistente en el Servicio de Neurocirugia Pediatrica del Hospital de Emergencias Pediatricas. \n
@@ -70,7 +62,7 @@ const SpeakersData = [
         image: require('../../img/speakers/castelo.jpg'),
         shortname: 'Dr. Castelo',
         name: 'Dr. Jean Marcel Castelo Vega.',
-        subtitle: 'Especialidad:  Neurocirujano',
+        subtitle: 'Especialidad: Neurocirujano',
         bio: `
 - Jefe de Servicio de Neurocirugia, Hospital Antonio Lorena (Cuzco - Peru). \n
 - International Member and Fellow AANS. \n
@@ -84,15 +76,20 @@ const SpeakersData = [
         shortname: 'Dr. Cauti',
         name: 'Dr. Daniel Cauti De la Cruz',
         subtitle: 'Cirujano Ortopedico',
+        flag: 'peru',
         bio: `
 - Medico Asistente en el Servicio de Ortopedia y Traumología del Hospital Edgardo Rebagliatti Martins
-        `, '' //@todo:  falta
+- Medico Asistente en el Servicio de Ortopedia y Tramuología Clínica Ricardo Palma.
+- Medico Asistente en el Servicio de Ortopedia y Tramuología Clínica Internacional.
+- Medico Asistente en el Servicio de Ortopedia y Tramuología Clínica Good Hope.
+        `, //@todo:  falta
     },
     {
         image: require('../../img/speakers/dittmar.jpg'),
         shortname: 'Dr. Dittmar',
         name: 'Dr. Michael Dittmar',
         subtitle: 'Médico Exranjero',
+        flag: 'mexico',
         bio: `
 - Egresado de la Universidad Autonoma de Guadalajara 
 - Ortopedia Hospital Magdalena de las Salinas Mexico distrito Federal
@@ -106,15 +103,17 @@ const SpeakersData = [
         shortname: 'Dr. Laos',
         name: 'Dr. Eduardo J. Laos Plasier',
         subtitle: 'Especialidad: Neurocirujano',
+        flag: 'peru',
         bio: `
 - Medico Asistente en el Servicio de Neurotrauma y Columna del Departamento de Neurocirugia del Hospital "Guillermo Almenara Irigoyen" \n
-                `
+`
     },
     {
         image: require('../../img/speakers/dr.pascual.jpg'),
         shortname: 'Dr. Pascual',
         name: 'Dr. Ronald Pascual Valverde.',
         subtitle: 'Especialidad: Neurocirujano',
+        flag: 'peru',
         bio:
 `
 - Jefe de Neurocirugía del Hospital Victor Lazarte Echegaray EsSalud - Trujillo
@@ -125,35 +124,59 @@ const SpeakersData = [
         image: require('../../img/speakers/reis.jpg'),
         shortname: 'Dr. Reis',
         name: 'Dr. Alexander Reis Elias',
-        subtitle: 'Cirujano Ortopedico',
-        bio: ``,
+        subtitle: 'Neurocirujano',
+        flag: 'brasil',
+        bio: `
+- Chefe do Setor de Coluna Vertebral Universidade Federal de Sao Paulo UNIFESP
+- Prestador de Servicos medicos Clínica da Dor/Hospital Nove De julho
+- Nerucirurgiao especializado no tratamento de doencas da coluna vertebral Hospital Nove de Julho
+- Membro Sociedade Brasileira de Neurocirurgia(SBN)
+- Membro Sociedade Brasileira de Coluna Vertebral (SBC)
+-  
+        `,
     },
     {
         image: require('../../img/speakers/robles.jpg'), // donors
         shortname: 'Dr. Donors',
         name: 'Dr. Jesus Donors Recalde.',
-        subtitle: 'Medico Cirujano'
+        subtitle: 'Medico Cirujano',
+        bio: `- coming soon`
     },
     {
         image: require('../../img/speakers/soriano.jpg'),
         shortname: 'Dr. Soriano',
         name: 'Dr. Jose A. Soriano Sanchez.',
-        subtitle: 'Neurocirujano',
+        subtitle: 'Medico Ortopedico',
+        flag: 'mexico',
         bio: `
-- Neurocirujano certificado, Pionero de la cirugia minimamente invasiva de columna en America Latina \n
+- Neurocirujano certificado, Pionero de la cirugia minimamente invasiva de columna en America Latina.
+- Presidente Electo por mayoría absoluta de la Asociación Mexicana de Cirujanos de Columna (AMCICO) 2018 - 2019
+- Miembro Internacional de la Sociedad Latinoamericana de Ortopedia y Traumatología Federación (SLAOT) 2015-2017
+-Reconocimiento Mundial "Prize to the Medical By Achivement for a Better Life" 2015 por IOCIM
         `
     },
     {
         image: require('../../img/speakers/vialle.png'),
         shortname: 'Dr. Vialle',
         name: 'Dr. Luiz Vialle',
-        subtitle: 'Medico Cirujano'
+        subtitle: 'Professor of Orthopaedics',
+        flag: 'brasil',
+        bio: `
+- Professor of Orthopaedics
+- Catholic University, School of Medicine
+- Spine Unit, Cajuru Universitary Hospital Curitiba, Brazil
+- Medical Director, Curitiba Spine Center
+- Brazilian Spine Society, Founder and Past President
+- Chairman AOSpine Latin America 2003/2007
+- Chairman AOSpine International, 2009/2012
+        `
     },
     {
         image: require('../../img/speakers/speaker-vizcarra.jpg'),
         shortname: 'Dr. Vizcarra',
         name: 'Dr. Miguel Angel Vizcarra Fernandez',
         subtitle: 'Especialidad: Neurocirujano',
+
         bio: `
  - Jefe de Servicio de Columna y Nervios Perifericos del Hospital Edgardo Rebagliati M.
  - Profesor de Neurocirugía en Medicina Humana (UPC)
