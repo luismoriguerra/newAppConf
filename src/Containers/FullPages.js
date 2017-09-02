@@ -9,6 +9,7 @@ import JuntaScreen from './Mas/JuntaScreen.js';
 import HotelScreen from './Mas/HotelScreen.js';
 import CiudadScreen from './Mas/CiudadScreen.js';
 import AcercaScreen from './Mas/AcercaScreen.js';
+import AospineScreen from './Mas/AospineScreen.js';
 
 // import HeaderSection from './src/Components/Header.js'
 const FullPages = StackNavigator({
@@ -38,6 +39,9 @@ const FullPages = StackNavigator({
   Acerca: {
     screen: AcercaScreen,
   },
+  Aospine: {
+    screen: AospineScreen,
+  }
 }
 // , {initialRouteName: 'Ciudad'}
 );

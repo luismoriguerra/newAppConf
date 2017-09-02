@@ -59,7 +59,7 @@ class JuntaScreen extends Component {
         return (
             <Container>
                 <SectionTop>
-                    <SectionTitle> Junta Directiva</SectionTitle>
+                    <SectionTitle> Junta Directiva Aspecive</SectionTitle>
                 </SectionTop>
                 <SectionMiddle>
                     <Title>Presidente</Title>
@@ -83,6 +83,9 @@ class JuntaScreen extends Component {
                     <Title>Comité científico</Title>
                     <Subtitle>Alfredo Vasquez Rodríguez</Subtitle>
                     <Subtitle>Daniel Cauti de la Cruz</Subtitle>
+
+                    <Title>Evelyn Napa Zender </Title>
+                    <Subtitle>Asistente administrativo </Subtitle>
                 </SectionMiddle>
             </Container>
         );

@@ -27,6 +27,12 @@ const data = [
     },
     {
         image: require('../../img/sponsor/sponsor-quito.png'),
+    },
+    {
+        image: require('../../img/sponsor/sponsor-resocentro.jpg'),
+    },
+    {
+        image: require('../../img/sponsor/sponsor-cerema.jpg'),
     }
 ];
 

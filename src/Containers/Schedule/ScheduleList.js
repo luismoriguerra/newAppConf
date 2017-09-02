@@ -62,7 +62,7 @@ const TitleWrapper = styled(Text)`
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 5px;
-    margin:  0 15px 15px 15px;
+    margin:  5px 20px 20px 20px;
     flex: 1;
 `;
 

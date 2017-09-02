@@ -8,21 +8,27 @@ import styled from 'styled-components/native';
 const { width, height } = Dimensions.get('window');
 const data = [
     {
-        text: 'Junta Directiva',
-        route: 'Junta'
+        text: 'AOSpine',
+        route: 'Aospine'
     },
+   
     {
         text: 'Hotel Country Club',
         route: 'Hotel'
     },
     {
-        text: 'Lima',
+        text: 'Lima, Perú',
         route: 'Ciudad'
     },
     {
         text: 'Acerca de Aspecive',
         route: 'Acerca'
     },
+    {
+        text: 'Junta Directiva',
+        route: 'Junta'
+    }
+    
     // {
     //     text: 'Acerca de esta App'
     // }
@@ -63,7 +69,7 @@ export default class MasScreen extends React.PureComponent {
     render() {
         return (
             <Container>
-                <Header title="Más" />
+                <Header title="Más Opciones" />
                 <Content>
                     {data.map((item, index) => <Row key={index} {...item} goTo={this.goTo} />)}
                 </Content>

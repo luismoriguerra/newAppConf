@@ -9,32 +9,41 @@ import styled from 'styled-components/native';
 
 const SpeakersData = [
     {
-        image: require('../../img/speakers/babor2.png'),   
+        image: require('../../img/speakers/babor2.png'),
         shortname: 'Dr. Baabor',
         name: 'Dr. Marcos Baabor',
         subtitle: 'Médico Neurocirujano',
         flag: 'chile',
         bio: `
-- Médico Neurocirujano del Departamento de Neurologia y Neurocirugia del Hospital Clinico Universidad de Chile. \n 
-- Medico Neurocirujano del servicio de Neurologia y Neurocirugia del hospital DIPRECA. \n 
-- Jefe de la Unidad de Cirugia Estereotactica y funcional del Departamento Neurologia - Neurocirugia del Hospital Clinico Universidad de Chile. \n 
-- Presidente del Capitulo de Columna e la FLANC. \n 
-- Miembro activo THE WFNS. \n `
+Médico Neurocirujano del Departamento de Neurologia y Neurocirugia del Hospital Clinico Universidad de Chile. 
+
+Medico Neurocirujano del servicio de Neurologia y Neurocirugia del hospital DIPRECA. 
+
+Jefe de la Unidad de Cirugia Estereotactica y funcional del Departamento Neurologia - Neurocirugia del Hospital Clinico Universidad de Chile. 
+
+Presidente del Capitulo de Columna e la FLANC. 
+
+Miembro activo THE WFNS. `
     },
     {
-        image: require('../../img/speakers/barros.jpg'),   
+        image: require('../../img/speakers/barros.jpg'),
         shortname: 'Dr. Barros',
         name: 'Dr. Elisio Barros Avidago',
         subtitle: 'Medico Neurocirugia',
         flag: 'brasil',
         bio: `
-- Miembro Titular da Sociedade Brasileira de Neurocirugia (SBN) \n
-- Membro da Sociedade Brasileira de Neurocirugia Pediatrica (SBN-Ped), (Subordinada a SBN)\n
-- Socio Efetivo da Sociedade Brasileira de Coluna.\n
-- Responsavel pelo servico de Nuerocirugia Hospital PIO XII, em Sao Paulo dos Campos-SP\n
-- Responsavel pelo servico de Neurocirugia Hospital Antoninho da Rocha Marmo-SP\n
-- Responsavel pelo servico de Neurocirugia Hospital Sao Francisco, em Jacarei-SP\n
-        ` 
+Miembro Titular da Sociedade Brasileira de Neurocirugia (SBN) 
+
+Membro da Sociedade Brasileira de Neurocirugia Pediatrica (SBN-Ped), (Subordinada a SBN)
+
+Socio Efetivo da Sociedade Brasileira de Coluna.
+
+Responsavel pelo servico de Nuerocirugia Hospital PIO XII, em Sao Paulo dos Campos-SP
+
+Responsavel pelo servico de Neurocirugia Hospital Antoninho da Rocha Marmo-SP
+
+Responsavel pelo servico de Neurocirugia Hospital Sao Francisco, em Jacarei-SP
+        `
     },
     {
         image: require('../../img/speakers/cabrejos.jpg'),
@@ -43,8 +52,9 @@ const SpeakersData = [
         subtitle: 'Especialidad: Neurocirujano',
         flag: 'peru',
         bio: `
-- Medico Asistente en el Servicio de Neurotrauma y Columna del Departamento de Neurocirugia del Hospital Nacional "Guillermo Almenara Irigoyen".\n
-- Medico Asistente en el Servicio de Neurocirugia Pediatrica del Hospital de Emergencias Pediatricas. \n
+Medico Asistente en el Servicio de Neurotrauma y Columna del Departamento de Neurocirugia del Hospital Nacional "Guillermo Almenara Irigoyen".
+
+Medico Asistente en el Servicio de Neurocirugia Pediatrica del Hospital de Emergencias Pediatricas. 
 `,
     },
     {
@@ -53,9 +63,11 @@ const SpeakersData = [
         name: 'Dr. Elar Cari Condori',
         subtitle: 'Especialidad: Neurocirujano',
         bio: `
-- Jefe del Servicio de Neurotrauma y Columna del Departamento de Neurocirugia del Hospital Nacional "Guillermo Almenara Irigoyen" .\n
-- Medico Asistente en el Servicio de Neurotrauma y Columna de la Clinica Centenario Peruano Japonesa.\n
-- Profesor y Tutor de Neurologia por la Universidad Nacional Mayor de San Marcos.\n
+Jefe del Servicio de Neurotrauma y Columna del Departamento de Neurocirugia del Hospital Nacional "Guillermo Almenara Irigoyen" .
+
+Medico Asistente en el Servicio de Neurotrauma y Columna de la Clinica Centenario Peruano Japonesa.
+
+Profesor y Tutor de Neurologia por la Universidad Nacional Mayor de San Marcos.
 `,
     },
     {
@@ -64,10 +76,13 @@ const SpeakersData = [
         name: 'Dr. Jean Marcel Castelo Vega.',
         subtitle: 'Especialidad: Neurocirujano',
         bio: `
-- Jefe de Servicio de Neurocirugia, Hospital Antonio Lorena (Cuzco - Peru). \n
-- International Member and Fellow AANS. \n
-- International Fellow SBNC, Cirugia de Base de Craneo (Tubingen - Alemania). \n
-- International Fellow AOSpine, Cirugia de Columna (Sao Paulo - Brasil). \n
+Jefe de Servicio de Neurocirugia, Hospital Antonio Lorena (Cuzco - Peru). 
+
+International Member and Fellow AANS. 
+
+International Fellow SBNC, Cirugia de Base de Craneo (Tubingen - Alemania). 
+
+International Fellow AOSpine, Cirugia de Columna (Sao Paulo - Brasil). 
         `
 
     },
@@ -78,24 +93,32 @@ const SpeakersData = [
         subtitle: 'Cirujano Ortopedico',
         flag: 'peru',
         bio: `
-- Medico Asistente en el Servicio de Ortopedia y Traumología del Hospital Edgardo Rebagliatti Martins
-- Medico Asistente en el Servicio de Ortopedia y Tramuología Clínica Ricardo Palma.
-- Medico Asistente en el Servicio de Ortopedia y Tramuología Clínica Internacional.
-- Medico Asistente en el Servicio de Ortopedia y Tramuología Clínica Good Hope.
+
+Medico Asistente en el Servicio de Ortopedia y Traumología del Hospital Edgardo Rebagliatti Martins
+
+Medico Asistente en el Servicio de Ortopedia y Tramuología Clínica Ricardo Palma.
+
+Medico Asistente en el Servicio de Ortopedia y Tramuología Clínica Internacional.
+
+Medico Asistente en el Servicio de Ortopedia y Tramuología Clínica Good Hope.
         `, //@todo:  falta
     },
     {
         image: require('../../img/speakers/dittmar.jpg'),
         shortname: 'Dr. Dittmar',
         name: 'Dr. Michael Dittmar',
-        subtitle: 'Médico Exranjero',
+        subtitle: 'Traumatología y Ortopedia',
         flag: 'mexico',
         bio: `
-- Egresado de la Universidad Autonoma de Guadalajara 
-- Ortopedia Hospital Magdalena de las Salinas Mexico distrito Federal
-- Columna Vertebral Universidad de Nottingham Inglaterra y Saint Vicente de Paul en Paris Francia
-- Profesor de pregrado del Técnologico de Monterrey
-- Director del programa de adiestramiento en cirugía de columna de REESPALDA.
+Egresado de la Universidad Autonoma de Guadalajara 
+
+Ortopedia Hospital Magdalena de las Salinas Mexico distrito Federal
+
+Columna Vertebral Universidad de Nottingham Inglaterra y Saint Vicente de Paul en Paris Francia
+
+Profesor de pregrado del Técnologico de Monterrey
+
+Director del programa de adiestramiento en cirugía de columna de REESPALDA.
         `,
     },
     {
@@ -105,7 +128,7 @@ const SpeakersData = [
         subtitle: 'Especialidad: Neurocirujano',
         flag: 'peru',
         bio: `
-- Medico Asistente en el Servicio de Neurotrauma y Columna del Departamento de Neurocirugia del Hospital "Guillermo Almenara Irigoyen" \n
+Medico Asistente en el Servicio de Neurotrauma y Columna del Departamento de Neurocirugia del Hospital "Guillermo Almenara Irigoyen" 
 `
     },
     {
@@ -115,9 +138,10 @@ const SpeakersData = [
         subtitle: 'Especialidad: Neurocirujano',
         flag: 'peru',
         bio:
-`
-- Jefe de Neurocirugía del Hospital Victor Lazarte Echegaray EsSalud - Trujillo
-- Médico Asistente en el Servicio de Neurotrauma y Columna del Departamento de Neurocirugía del Hospital Nacional "Guillermo Almenara Irigoyen"
+        `
+Jefe de Neurocirugía del Hospital Victor Lazarte Echegaray EsSalud - Trujillo
+
+Médico Asistente en el Servicio de Neurotrauma y Columna del Departamento de Neurocirugía del Hospital Nacional "Guillermo Almenara Irigoyen"
 `
     },
     {
@@ -127,12 +151,15 @@ const SpeakersData = [
         subtitle: 'Neurocirujano',
         flag: 'brasil',
         bio: `
-- Chefe do Setor de Coluna Vertebral Universidade Federal de Sao Paulo UNIFESP
-- Prestador de Servicos medicos Clínica da Dor/Hospital Nove De julho
-- Nerucirurgiao especializado no tratamento de doencas da coluna vertebral Hospital Nove de Julho
-- Membro Sociedade Brasileira de Neurocirurgia(SBN)
-- Membro Sociedade Brasileira de Coluna Vertebral (SBC)
--  
+Chefe do Setor de Coluna Vertebral Universidade Federal de Sao Paulo UNIFESP
+
+Prestador de Servicos medicos Clínica da Dor/Hospital Nove De julho
+
+Nerucirurgiao especializado no tratamento de doencas da coluna vertebral Hospital Nove de Julho
+
+Membro Sociedade Brasileira de Neurocirurgia(SBN)
+
+Membro Sociedade Brasileira de Coluna Vertebral (SBC)
         `,
     },
     {
@@ -140,35 +167,61 @@ const SpeakersData = [
         shortname: 'Dr. Donors',
         name: 'Dr. Jesus Donors Recalde.',
         subtitle: 'Medico Cirujano',
-        bio: `- coming soon`
+        bio: ``
     },
     {
         image: require('../../img/speakers/soriano.jpg'),
         shortname: 'Dr. Soriano',
         name: 'Dr. Jose A. Soriano Sanchez.',
-        subtitle: 'Medico Ortopedico',
+        subtitle: 'Medico neurocirujano',
         flag: 'mexico',
         bio: `
-- Neurocirujano certificado, Pionero de la cirugia minimamente invasiva de columna en America Latina.
-- Presidente Electo por mayoría absoluta de la Asociación Mexicana de Cirujanos de Columna (AMCICO) 2018 - 2019
-- Miembro Internacional de la Sociedad Latinoamericana de Ortopedia y Traumatología Federación (SLAOT) 2015-2017
--Reconocimiento Mundial "Prize to the Medical By Achivement for a Better Life" 2015 por IOCIM
+Neurocirujano certificado, Pionero de la cirugia minimamente invasiva de columna en America Latina.
+
+Presidente Electo por mayoría absoluta de la Asociación Mexicana de Cirujanos de Columna (AMCICO) 2018 2019
+
+Miembro Internacional de la Sociedad Latinoamericana de Ortopedia y Traumatología Federación (SLAOT) 2015-2017
+
+Reconocimiento Mundial "Prize to the Medical By Achivement for a Better Life" 2015 por IOCIM
         `
     },
     {
         image: require('../../img/speakers/vialle.png'),
         shortname: 'Dr. Vialle',
         name: 'Dr. Luiz Vialle',
-        subtitle: 'Professor of Orthopaedics',
+        subtitle: 'cirujano ortopédico',
         flag: 'brasil',
         bio: `
-- Professor of Orthopaedics
-- Catholic University, School of Medicine
-- Spine Unit, Cajuru Universitary Hospital Curitiba, Brazil
-- Medical Director, Curitiba Spine Center
-- Brazilian Spine Society, Founder and Past President
-- Chairman AOSpine Latin America 2003/2007
-- Chairman AOSpine International, 2009/2012
+Professor of Orthopaedics
+
+Catholic University, School of Medicine
+
+Spine Unit, Cajuru Universitary Hospital Curitiba, Brazil
+
+Medical Director, Curitiba Spine Center
+
+Brazilian Spine Society, Founder and Past President
+
+Chairman AOSpine Latin America 2003/2007
+
+Chairman AOSpine International, 2009/2012
+        `
+    },
+    {
+        image: require('../../img/speakers/vasquez.png'),
+        shortname: 'Dr. Vasquez',
+        name: 'Dr. Edgar Alfredo Vásquez Rodríguez',
+        subtitle: 'Especialidad: Neurocirujano',
+        bio: `
+Fundador del Servicio de Cirugía de Columna y Médula del Hospital Edgardo Rebagliati M.
+
+Gerente General de la Clínica de Especialidades Médicas.
+
+Jefe de Servicio de Neurocirugía de la Clínica de Especilidades Médicas.
+
+Past Chairman de AOSpine.
+
+Chairman de AOSpine Peru, 2017 - 2020
         `
     },
     {
@@ -178,10 +231,14 @@ const SpeakersData = [
         subtitle: 'Especialidad: Neurocirujano',
 
         bio: `
- - Jefe de Servicio de Columna y Nervios Perifericos del Hospital Edgardo Rebagliati M.
- - Profesor de Neurocirugía en Medicina Humana (UPC)
- - Gerente de Ayuda al diagnóstico y tratamiento en Hospital Rebagliatti 2004
- - Ex-Profesor de Neurocirugía de la Universidad Peruana Cayetano Heredia
+ 
+Jefe de Servicio de Columna y Nervios Perifericos del Hospital Edgardo Rebagliati M.
+ 
+Profesor de Neurocirugía en Medicina Humana (UPC)
+ 
+Gerente de Ayuda al diagnóstico y tratamiento en Hospital Rebagliatti 2004
+ 
+Ex-Profesor de Neurocirugía de la Universidad Peruana Cayetano Heredia
         `
     }
 ];
@@ -204,7 +261,7 @@ const CircleList = styled(View) `
     justify-content: center;
 `;
 
-const TextWrap = styled(Text)`
+const TextWrap = styled(Text) `
     font-size: 16px;
     margin-top: 10px; 
 `;
@@ -230,21 +287,22 @@ const Speaker = (props) => {
 export default class Speakers extends React.PureComponent {
 
     goToSpeaker = (item) => {
-        this.props.navigation.navigate('speaker_details', {item})
+        this.props.navigation.navigate('speaker_details', { item })
     };
 
     render() {
 
         return (
             <Container>
+                <Header title="Expositores"></Header>
                 <Content>
-                    <Header title="Expositores"></Header>
+
                     <CircleList>
-                        {SpeakersData.map((item, index) => 
-                            <Speaker 
-                                key={index} 
-                                {...item} 
-                                goToSpeaker={this.goToSpeaker} 
+                        {SpeakersData.map((item, index) =>
+                            <Speaker
+                                key={index}
+                                {...item}
+                                goToSpeaker={this.goToSpeaker}
                             />)}
                     </CircleList>
                 </Content>
