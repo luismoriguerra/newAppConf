@@ -1,37 +1,46 @@
 import React from 'react';
-import { View, Text, Dimensions, TouchableWithoutFeedback } from 'react-native';
+import { View, Text, Dimensions, TouchableWithoutFeedback, Linking } from 'react-native';
+
 import { Container, Content, List, ListItem, Left, Body, Right, Thumbnail } from 'native-base';
 import Expo from 'expo';
 import { Header } from '../../Components/custom-components';
 import { gold, blue, skyblue, gray, white } from '../../colors.js';
 import styled from 'styled-components/native';
 const { width, height } = Dimensions.get('window');
+
 const data = [
     {
-        text: 'AOSpine',
-        route: 'Aospine'
+        text: 'Posters Electronicos',
+        route: 'Posters'
     },
-   
     {
-        text: 'Hotel Country Club',
-        route: 'Hotel'
+        text: 'Mapa del congreso',
+        link: 'http://aspecive.com/sites/default/files/mapa-fractal.jpeg'
     },
     {
         text: 'Lima, Perú',
         route: 'Ciudad'
     },
     {
-        text: 'Acerca de Aspecive',
-        route: 'Acerca'
+        text: 'Hotel Country Club',
+        route: 'Hotel'
     },
+    
     {
         text: 'Junta Directiva',
         route: 'Junta'
-    }
+    },
+    {
+        text: 'Acerca de Aspecive',
+        route: 'Acerca'
+    },
+   
+    {
+        text: 'Acerca de AOSpine',
+        route: 'Aospine'
+    },
     
-    // {
-    //     text: 'Acerca de esta App'
-    // }
+  
 
 ];
 
@@ -49,9 +58,14 @@ const RowText = styled(Text) `
 `;
 
 
-const Row = ({ text, route, goTo }) => {
+const Row = ({ text, route, goTo, link }) => {
+    const config = {
+        type: link ? 'link' : 'route',
+        path: link ? link : route
+    }
+
     return (
-        <TouchableWithoutFeedback onPress={() => goTo(route)}>
+        <TouchableWithoutFeedback onPress={() => goTo(config)}>
             <RowContainer >
                 <RowText >{text}</RowText>
             </RowContainer>
@@ -62,8 +76,18 @@ const Row = ({ text, route, goTo }) => {
 
 export default class MasScreen extends React.PureComponent {
 
-    goTo = (route) => {
-        this.props.navigation.navigate(route)
+    goTo = (config) => {
+        switch (config.type) {
+            case 'link':
+                Linking.openURL(config.path);
+                break;
+            case 'route': 
+                this.props.navigation.navigate(config.path)
+                break;
+            default:
+                break;
+        }
+        
     }
 
     render() {

@@ -10,6 +10,7 @@ import HotelScreen from './Mas/HotelScreen.js';
 import CiudadScreen from './Mas/CiudadScreen.js';
 import AcercaScreen from './Mas/AcercaScreen.js';
 import AospineScreen from './Mas/AospineScreen.js';
+import Posters from './Mas/Posters.js';
 
 // import HeaderSection from './src/Components/Header.js'
 const FullPages = StackNavigator({
@@ -41,6 +42,9 @@ const FullPages = StackNavigator({
   },
   Aospine: {
     screen: AospineScreen,
+  },
+  Posters: {
+    screen: Posters,
   }
 }
 // , {initialRouteName: 'Ciudad'}

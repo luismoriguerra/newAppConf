@@ -11,29 +11,41 @@ const { width, height } = Dimensions.get('window');
 
 const data = [
     {
-        image: require('../../img/sponsor/sponsor_fractal.png'),
+        image: require('../../img/sponsor/synthes.jpeg'),
     },
     {
         image: require('../../img/sponsor/sponsor_importek.png'),
     },
     {
-        image: require('../../img/sponsor/sponsor-aos.png'),
-    },
-    {
         image: require('../../img/sponsor/neuroscience.jpeg'),
     },
     {
-        image: require('../../img/sponsor/synthes.jpeg'),
+        image: require('../../img/sponsor/sponsor-cerema.jpg'),
     },
     {
-        image: require('../../img/sponsor/sponsor-quito.png'),
+        image: require('../../img/sponsor/malca.jpeg'),
     },
     {
         image: require('../../img/sponsor/sponsor-resocentro.jpg'),
     },
     {
-        image: require('../../img/sponsor/sponsor-cerema.jpg'),
-    }
+        image: require('../../img/sponsor/sponsor-quito.png'),
+    },
+    {
+        image: require('../../img/sponsor/sponsor_fractal.png'),
+    },
+    {
+        image: require('../../img/sponsor/disgraf.png'),
+    },
+   
+    {
+        image: require('../../img/sponsor/sponsor-aos.png'),
+    },
+    
+   
+   
+    
+   
 ];
 
 const CardWrap = styled(Card) `

@@ -71,7 +71,7 @@ class JuntaScreen extends Component {
         return (
             <Container>
                 <SectionTop>
-                    <ImageWrap source={require('../../img/logo.png')} />    
+                    <ImageWrap source={require('../../img/logoconfondo.jpg')} />    
                 </SectionTop>
                 <SectionMiddle>
                     <Title>Asociación Peruana de Cirugía Vertebral</Title>

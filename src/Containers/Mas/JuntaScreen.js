@@ -83,9 +83,6 @@ class JuntaScreen extends Component {
                     <Title>Comité científico</Title>
                     <Subtitle>Alfredo Vasquez Rodríguez</Subtitle>
                     <Subtitle>Daniel Cauti de la Cruz</Subtitle>
-
-                    <Title>Evelyn Napa Zender </Title>
-                    <Subtitle>Asistente administrativo </Subtitle>
                 </SectionMiddle>
             </Container>
         );
